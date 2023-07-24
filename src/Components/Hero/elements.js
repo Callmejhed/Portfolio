@@ -10,4 +10,9 @@ export const Wrapper = styled.section`
         flex-direction: column;
         gap: 1rem;
     }
+
+    & .image-container{ 
+        border: 1px solid;
+        flex: .5;
+    }
 `
