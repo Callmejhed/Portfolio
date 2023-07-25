@@ -1,17 +1,21 @@
 import { Wrapper } from "./elements";
-import Convert from '../Convert'
+import Convert from "../Convert";
 
 const Hero = () => {
   return (
     <Wrapper>
-      <div className="text-container">
-        <pre>
-          Hello I'm Jedidiah Ehimah but you can call me <span>Jhed</span>. 
-          I'm a Fullstack web developer and <span>I'd like to work with you</span>.
-        </pre>
+      <div className="container">
+        <div className="text-container">
+          <h2>Hello.</h2>
+          <h3>I'm Jedidiah Ehimah.</h3>
+          <p>
+            I'm a Fullstack web developer. My expertise lies in building
+            scalable and user-friendly web applications that harmoniously blend
+            aesthetics with functionality. I'd like to work with you!
+          </p>
+        </div>
         <Convert />
       </div>
-      <div className="image-container"></div>
     </Wrapper>
   );
 };
